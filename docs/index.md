@@ -14,6 +14,25 @@ It runs as:
 
 The project contains no original game files. You supply your own copy of the original DOS game, and the installer builds your personal copy from it.
 
+## Screenshots
+
+EGA graphics:
+
+<p>
+<a href="image0003.png"><img src="image0003.png" alt="Start of a match in EGA, with the map open for the white spy and the GO! banner for the black spy" width="32%"></a>
+<a href="image0005.png"><img src="image0005.png" alt="The white spy warming up in an igloo while the black spy walks across the ice in EGA" width="32%"></a>
+<a href="image0007.png"><img src="image0007.png" alt="The black spy checking the map while the white spy looks on in EGA" width="32%"></a>
+</p>
+
+CGA composite colours:
+
+<p>
+<a href="image0010-rendered.png"><img src="image0010-rendered.png" alt="The intro scene with penguins and icebergs in CGA composite" width="32%"></a>
+<a href="image0012-rendered.png"><img src="image0012-rendered.png" alt="Start of a match in CGA composite" width="32%"></a>
+</p>
+
+Click an image to see it full size.
+
 ## Get it
 
 - [Download the latest release](https://github.com/obrem/arctic_antics/releases/latest)
