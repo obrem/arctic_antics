@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an improvement or a new option
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What problem does it solve, or what is it like in the original game?
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Which version is this for?
+      options:
+        - Both
+        - DOS
+        - Windows, Linux or macOS

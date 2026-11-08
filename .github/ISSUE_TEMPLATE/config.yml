@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation help
+    url: https://obrem.github.io/arctic_antics/install.html
+    about: Read the installation guide and troubleshooting section first.

@@ -1,0 +1,73 @@
+name: Bug report
+description: Something does not work, looks wrong or sounds wrong
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Please do not attach original game files or the `.DAT` data files.** Screenshots, short descriptions and your `ARCTIC.INI` are fine.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release you downloaded, for example 0.1.0, and which setup file (DOS or native).
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where are you running it?
+      options:
+        - DOS on real hardware
+        - DOSBox / DOSBox Staging / DOSBox-X
+        - Other DOS emulator or virtual machine
+        - Windows (native)
+        - Linux (native)
+        - macOS (native)
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Machine or emulator settings
+      description: Real hardware, CPU and memory; or the emulator version with its machine, cycles and sound settings.
+  - type: dropdown
+    id: display
+    attributes:
+      label: Display mode
+      options:
+        - EGA/VGA (automatic)
+        - Tandy/PCjr
+        - CGA composite
+        - Not sure
+  - type: dropdown
+    id: audio
+    attributes:
+      label: Sound
+      options:
+        - Tandy (automatic)
+        - AdLib
+        - PC speaker
+        - Not sure
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see or hear instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which map, one or two players, difficulty, items, and what you did. If it only happens sometimes, say how often.
+  - type: textarea
+    id: ini
+    attributes:
+      label: Changes you made to ARCTIC.INI
+      description: Anything you edited, or leave empty if nothing.
+      render: ini
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, recordings or anything else
