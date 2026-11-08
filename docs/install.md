@@ -26,13 +26,12 @@ Verify a download against the `.sha256` file on the release page if you like.
 ## Install
 
 1. Put the downloaded file in the **same folder as your original files**, or in a folder directly inside that folder. It looks nowhere else (not the parent folder, not Downloads). If files are missing it stops with an error naming them; you can also point it at them with `--originals <folder>`.
-2. For Tandy/AdLib music, put `SPYVSPY3.T64` in the same place (or give `--c64 <file>`).
-3. Run the file: double-click it, or run `Arctic-Setup install` from a terminal. On Linux and macOS the download is a `.tar.gz` holding the one file; extract it first.
-4. In a few seconds it creates the game folder (`arctic-dos` or `arctic`) next to the installer, holding the program, the data files, `ARCTIC.INI` (controls and options), a short README and `CHANGES.TXT`. The setup file is no longer needed afterwards.
+2. Run the file: double-click it, or run `Arctic-Setup install` from a terminal. On Linux and macOS the download is a `.tar.gz` holding the one file; extract it first.
+3. In a few seconds it creates the game folder (`arctic-dos` or `arctic`) next to the installer, holding the program, the data files, `ARCTIC.INI` (controls and options), a short README and `CHANGES.TXT`. The setup file is no longer needed afterwards.
 
 The data files are compiled from your originals on your computer, so keep them private. Running the installer again replaces the data and keeps your edited `ARCTIC.INI`.
 
-Installer options: `--originals <folder>`, `--output <folder>`, `--c64 <tape image>`, `--cache <folder>` (keep the editable artwork cache), `--yes` (never ask questions).
+Installer options: `--originals <folder>`, `--output <folder>`
 
 ## Playing
 

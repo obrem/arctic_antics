@@ -19,8 +19,7 @@ There are two downloads, each a single file. Pick the version you want, or both.
 | `Arctic-Setup` | `arctic` | Windows, macOS or Linux |
 
 1. Put the downloaded file in the same folder as your original game files (`Spy.exe`, `Spytitle.exe`, `Spud`, `Text1.dat`, `Text2.dat`, `Text3.dat`, `Title.dat`, `Demo.dat`, `Maxx.pic`, `Trap.pic`), or in a folder directly inside it.
-2. For the Tandy/AdLib music, put the C64 tape image (`SPYVSPY3.T64`) there too. Without it the game has PC speaker sound only.
-3. Run the file. A few seconds later it creates the game folder next to it.
+2. Run the file. A few seconds later it creates the game folder next to it.
 
 See the [installation guide](docs/install.md) for details, options and troubleshooting.
 
