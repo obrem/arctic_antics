@@ -8,7 +8,6 @@ title: Installation
 ## What you need
 
 - The **original DOS Spy vs. Spy III: Arctic Antics** files. The installer reads them once and builds your personal data from them; nothing is uploaded and no original file is changed.
-- Optional, for Tandy/AdLib music: the **C64 tape image** (`SPYVSPY3.T64`) of the same game. Without it the game still installs and plays with PC speaker sound.
 
 Required original files (names are matched without regard to case): `Spy.exe`, `Spytitle.exe`, `Spud`, `Text1.dat`, `Text2.dat`, `Text3.dat`, `Title.dat`, `Demo.dat`, `Maxx.pic`, `Trap.pic`.
 
@@ -52,7 +51,6 @@ See [what is different from the original](changes.html) for the full list.
 ## Troubleshooting
 
 - **"Files missing" error:** the installer lists them. Check that the files are in the same folder as the installer, or give `--originals <folder>`.
-- **No Tandy/AdLib music:** the C64 tape image was not found. Put `SPYVSPY3.T64` next to the installer and run it again.
 - **Windows warns about an unknown publisher:** the downloads are not code-signed.
 
 If something else goes wrong, please [open an issue](https://github.com/obrem/arctic_antics/issues/new/choose) with your platform, the setup file you used and what the installer printed. Please do not attach original game files or the `.DAT` data files.
